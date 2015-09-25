@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>eLabs | <%= @title %></title>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+    <%= csrf_meta_tags %>
+
+
+    <%= analytics_init if Rails.env.production? %>
+    
+  </head>
+  <body>
+
+
+<div id="Menu">
+
+
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid" id="navigationBar">
+          <div class="site-navigation-inner">
+            <div class="navbar-header">
+          
+              <div id="logo">
+                <a href="#"><img src="assets/eLogo.png" width="93" height="35" style="margin-top: 10px" /></a>
+              </div>
+
+                </div>
+
+              <div class="collapse navbar-collapse navbar-ex1-collapse">
+              
+              <ul id="menu-primary-navigation" class="nav navbar-nav">
+
+                <li class="<%= 'active' if params[:controller] == 'IS-LM' %>" class="menu-item"><a href="#" class="single">IS-LM</a></li>
+
+                <li class="<%= 'active' if params[:controller] == 'solow' %>" class="menu-item"><a href="#" class="single">Solow</a></li>
+
+                <li class="<%= 'active' if params[:controller] == 'MundellFleming' %>" class="menu-item"><a href="#" class="break">Mundell-<br >Flemming</a></li>
+
+                <li class="menu-item menu-item-has-children dropdown"><a href="#" data-toggle="dropdown" class="single" class="dropdown-toggle">Categories <span class="caret"></span></a>
+                  <ul role="menu" class="dropdown-menu">
+                    <li class="<%= 'active' if params[:controller] == 'hello' %>" class="menu-item"><a href="#">Specialty Pages</a></li>
+                    <li class="<%= 'active' if params[:controller] == 'solow' %>" class="menu-item"><a href="#">Miscellaneous</a></li>
+                    <li class="<%= 'active' if params[:controller] == 'ahaha' %>" class="menu-item"><a href="#">WordPress</a></li>
+                  </ul>
+                </li>
+
+                <li class="menu-item"><a href="#" class="single">Contact</a></li>
+
+              </ul>
+            </div>         
+          </div>
+      </div>
+    </nav>
+
+</div>
+
+    <%= yield %>
+
+  </body>
+</html>

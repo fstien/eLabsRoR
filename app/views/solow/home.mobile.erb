@@ -1,0 +1,37 @@
+<%= stylesheet_link_tag "solowMobile" %>
+
+<canvas id="canvasGraph"></canvas>
+
+<canvas id="canvasControls"></canvas>
+
+
+<div id="text">
+
+<p id="textTitle">The Solow Model</p>
+
+
+ <div id="textDiv">
+  <p>When Robert Solow was a PhD student, he came up with the idea for this thing. Yeah, true.</p>
+  <p>He got a Nobel Prize, yo.</p>
+ </div>
+
+</div>
+
+
+
+<div id="rangeControl">
+
+  <input type="range" id="alphaInput" value="0.3" min="0" max="1" step="0.01" />
+  <input type="range" id="savingsInput" value="0.4" min="0" max="1" step="0.01" />
+  <input type="range" id="depInput" value="0.45" min="0.01" max="1" step="0.01" />
+  <input type="range" id="techInput" value="3" min="0.01" max="6" step="0.01" />
+
+</div>
+
+
+<%= javascript_include_tag 'solowMobile', 'data-turbolinks-track' => true %>
+
+
+
+
+

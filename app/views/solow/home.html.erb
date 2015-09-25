@@ -1,0 +1,130 @@
+
+<%= stylesheet_link_tag "solowDesktop" %>
+
+
+
+<div id="body">
+
+<div id="container">
+
+<div class="pane ui-layout-center" id="one">
+	<canvas id="canvasGraph"></canvas>
+</div>
+
+<div class="pane ui-layout-east" id="two">
+
+<div id="controls">
+
+	<canvas id="canvasControls"></canvas>
+
+
+<div id="doubleContainer">
+    
+  <div id="equationsDiv">
+
+   <div id="scaleEquations">
+	<table id="equationsTable">
+		<tr>
+			<td class="equationBox">
+			<p class="equation" id="EqProd">
+			<span id="EqProdY">y </span>=<span id="EqProdtech"></span><span id="EqProdK">k</span><sup><span id="EqProdalpha">
+			</span></sup></p>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="equationBox">
+			<p class="equation" id="EqSS">
+			<span id="EqSSsavings">
+			</span><span id="EqSStech">
+			</span><span id="EqSSk">k</span><sup><span id="EqSSalpha">
+			</span></sup>=<span id="EqSSdep">
+			</span><span id="EqSSk2">k</span></p>
+			</td>
+		</tr>
+	</table>
+    </div>
+
+  </div>
+
+
+  <div id="sliderDiv">
+
+    	<table id="rangeTable">
+			<tr class="sliderRow">
+				<td class="symbol">
+				<p class="symbolText" id="alphaInputSymbol">&alpha;</p>
+				</td>
+				<td class="slider">
+				<input class="sliderInput" id="alphaInput" max="1" min="0" step="0.0001" type="range" value="0.3"/>
+				</td>
+			</tr>
+			<tr class="sliderRow">
+				<td class="symbol">
+				<p class="symbolText" id="savingsInputSymbol">s</p>
+				</td>
+				<td class="slider">
+				<input class="sliderInput" id="savingsInput" max="1" min="0" step="0.0001" type="range" value="0.35"/>
+				</td>
+			</tr>
+			<tr class="sliderRow">
+				<td class="symbol">
+				<p class="symbolText" id="depInputSymbol">&delta;</p>
+				</td>
+				<td class="slider">
+				<input class="sliderInput" id="depInput" max="1" min="0.01" step="0.0001" type="range" value="0.40"/>
+				</td>
+			</tr>
+			<tr class="sliderRow">
+				<td class="symbol">
+				<p class="symbolText" id="techInputSymbol">A</p>
+				</td>
+				<td class="slider">
+				<input class="sliderInput" id="techInput" max="10" min="0.01" step="0.0001" type="range" value="4"/>
+				</td>
+			</tr>
+		</table>
+
+  </div>
+
+
+</div>
+
+<div id="vectorDiv">
+  
+  	<div class="container-fluid" id="tableContainerDiv">
+     <table class="table">
+      <tbody>
+        <tr>
+          <td class="cell"><p class="data" id="var-k">k</p></td>
+          <td class="cell"><p class="data" id="var-y">y</p></td>
+          <td class="cell"><p class="data" id="var-c">c</p></td>
+          <td class="cell"><p class="data" id="var-i">i</p></td>
+          <td class="cell" id="MPKcell"><p class="data" id="var-MPK">MPK</p></td>
+        </tr>
+      </tbody>
+   	 </table>
+  	</div>
+
+</div>
+
+
+<div id="text">
+
+	<div id="titleDiv">
+		<p id="textTitle" style="float:left">The Solow Model</p><p style="float:left"><i class="fa fa-caret-left" id="back"></i> <i class="fa fa-caret-right" id="forward"></i></p>
+	</div>
+
+	<div id="textDiv">
+		<p class="textPara">The Neoclassical growth model - often refered to simply as 'the Solow model' - was pioneered by Robert Solow in the 1950s.</p> 
+	</div>
+
+</div>
+
+
+</div>
+
+
+<%= javascript_include_tag 'solowDesktop', 'data-turbolinks-track' => true %>
+
+
