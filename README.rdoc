@@ -1,28 +1,10 @@
-== README
+== eLabs.academy V2 (in development)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+New version of eLabs currently in development.
 
-Things you may want to cover:
+* Ruby version 2.0.0, Rails version 4.2.3.
 
-* Ruby version
+* Javascript files in app => assets => javascripts
 
-* System dependencies
+* How to run locally: "rails server"
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
