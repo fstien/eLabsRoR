@@ -10481,3 +10481,269 @@ Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
 Started GET "/solow-refresh" for ::1 at 2015-09-25 20:58:25 +0200
 Processing by SolowController#refresh as */*
 Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow" for ::1 at 2015-10-19 15:09:25 +0100
+Processing by SolowController#home as HTML
+  Rendered solow/home.html.erb within layouts/application (243.9ms)
+Completed 200 OK in 807ms (Views: 794.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery2.self-0664d02dcbfb008e715c754b00b9af29d6f1796828c03610aee4265bdfc6afff.js?body=1" for ::1 at 2015-10-19 15:09:26 +0100
+
+
+Started GET "/assets/application.self-a75cf99c7a91b8897546d175caf48cd6533a23dd3da45e57ed7c298bc8d68df5.css?body=1" for ::1 at 2015-10-19 15:09:26 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-10-19 15:09:26 +0100
+
+
+Started GET "/assets/jquery/layout.self-8606d7eb7759f9d3a832a20f1c35abc4176ee33339944fc970a468b8a4f24b85.js?body=1" for ::1 at 2015-10-19 15:09:26 +0100
+
+
+Started GET "/assets/font-awesome.self-5c383f1da28e24c2ea432c7305833861478db6d46d4b60d361a0cdc957dbfd47.css?body=1" for ::1 at 2015-10-19 15:09:26 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-19 15:09:26 +0100
+
+
+Started GET "/assets/jquery-ui/draggable.self-debcca3d0d5d9afe2fe91a6fd1aebdb41ca0a55f2f6017352e6c02b6d8a6e64c.js?body=1" for ::1 at 2015-10-19 15:09:26 +0100
+
+
+Started GET "/assets/solowScripts/SolowLibrary.self-97e105823a79b0b4f9527fa4ae7563ba42a6b595759c7b04bcd71385be729fd7.js?body=1" for ::1 at 2015-10-19 15:09:26 +0100
+
+
+Started GET "/assets/solowDesktop.self-86707d5c82bf3939cfd2f07869068e6b4a22011fec61b7764d443f8391eeb527.css?body=1" for ::1 at 2015-10-19 15:09:26 +0100
+
+
+Started GET "/assets/solowScripts/canvasGraphDesktop.self-e8d4613eec4051bd21105659c7981fa3024b04998dc2bc828f06a24a79555a18.js?body=1" for ::1 at 2015-10-19 15:09:26 +0100
+
+
+Started GET "/assets/solowScripts/canvasControlsDesktop.self-8a2ddb40254cbcc7b868a544cf2a6f0da094bd660ac3e6462d03e25e90d082b9.js?body=1" for ::1 at 2015-10-19 15:09:27 +0100
+
+
+Started GET "/assets/eLogo.png" for ::1 at 2015-10-19 15:09:27 +0100
+
+
+Started GET "/solow-tech-decrease" for ::1 at 2015-10-19 15:09:34 +0100
+Processing by SolowController#techdecrease as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow-MPK" for ::1 at 2015-10-19 15:09:38 +0100
+Processing by SolowController#MPK as */*
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow-tech-increase" for ::1 at 2015-10-19 15:09:42 +0100
+Processing by SolowController#techincrease as */*
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow-dep-increase" for ::1 at 2015-10-19 15:09:44 +0100
+Processing by SolowController#depincrease as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow-refresh" for ::1 at 2015-10-19 15:09:45 +0100
+Processing by SolowController#refresh as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow" for ::1 at 2015-10-19 15:12:07 +0100
+Processing by SolowController#home as HTML
+  Rendered solow/home.html.erb within layouts/application (146.0ms)
+Completed 200 OK in 1844ms (Views: 1835.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.self-5c383f1da28e24c2ea432c7305833861478db6d46d4b60d361a0cdc957dbfd47.css?body=1" for ::1 at 2015-10-19 15:12:09 +0100
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-10-19 15:12:09 +0100
+
+
+Started GET "/assets/application.self-a75cf99c7a91b8897546d175caf48cd6533a23dd3da45e57ed7c298bc8d68df5.css?body=1" for ::1 at 2015-10-19 15:12:09 +0100
+
+
+Started GET "/assets/jquery-ui/core.self-93be4d22eda916787802a64d8f88b52db8a9027d4ccbbc0942625324a7d12d44.js?body=1" for ::1 at 2015-10-19 15:12:09 +0100
+
+
+Started GET "/assets/jquery2.self-0664d02dcbfb008e715c754b00b9af29d6f1796828c03610aee4265bdfc6afff.js?body=1" for ::1 at 2015-10-19 15:12:09 +0100
+
+
+Started GET "/assets/jquery-ui/widget.self-c1602241ddc51216b58391768667068867b8e15b9efc722befcd25771eda6819.js?body=1" for ::1 at 2015-10-19 15:12:09 +0100
+
+
+Started GET "/assets/jquery-ui/mouse.self-c513294e8da73f31f84ba3ef11e2a1180a47faea0eb2fea4a53fc26153dd21fd.js?body=1" for ::1 at 2015-10-19 15:12:09 +0100
+
+
+Started GET "/assets/jquery-ui/draggable.self-debcca3d0d5d9afe2fe91a6fd1aebdb41ca0a55f2f6017352e6c02b6d8a6e64c.js?body=1" for ::1 at 2015-10-19 15:12:09 +0100
+
+
+Started GET "/assets/jquery-layout-default.self-1147ef381a2f9d2217ef367bc80f4861d40c2e0af4557d649d8320db7851761a.css?body=1" for ::1 at 2015-10-19 15:12:09 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-10-19 15:12:09 +0100
+
+
+Started GET "/assets/jquery/layout.self-8606d7eb7759f9d3a832a20f1c35abc4176ee33339944fc970a468b8a4f24b85.js?body=1" for ::1 at 2015-10-19 15:12:09 +0100
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for ::1 at 2015-10-19 15:12:09 +0100
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for ::1 at 2015-10-19 15:12:09 +0100
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for ::1 at 2015-10-19 15:12:09 +0100
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for ::1 at 2015-10-19 15:12:09 +0100
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for ::1 at 2015-10-19 15:12:10 +0100
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for ::1 at 2015-10-19 15:12:10 +0100
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for ::1 at 2015-10-19 15:12:10 +0100
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for ::1 at 2015-10-19 15:12:10 +0100
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for ::1 at 2015-10-19 15:12:10 +0100
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for ::1 at 2015-10-19 15:12:10 +0100
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for ::1 at 2015-10-19 15:12:10 +0100
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-10-19 15:12:10 +0100
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for ::1 at 2015-10-19 15:12:10 +0100
+
+
+Started GET "/assets/application.self-5c210454b1facc1e317a759f6059324f793841eb23d1f549179b64d1584c55f8.js?body=1" for ::1 at 2015-10-19 15:12:10 +0100
+
+
+Started GET "/assets/solowScripts/SolowLibrary.self-97e105823a79b0b4f9527fa4ae7563ba42a6b595759c7b04bcd71385be729fd7.js?body=1" for ::1 at 2015-10-19 15:12:10 +0100
+
+
+Started GET "/assets/solowScripts/canvasGraphDesktop.self-e8d4613eec4051bd21105659c7981fa3024b04998dc2bc828f06a24a79555a18.js?body=1" for ::1 at 2015-10-19 15:12:10 +0100
+
+
+Started GET "/assets/solowDesktop.self-86707d5c82bf3939cfd2f07869068e6b4a22011fec61b7764d443f8391eeb527.css?body=1" for ::1 at 2015-10-19 15:12:10 +0100
+
+
+Started GET "/assets/solowDesktop.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2015-10-19 15:12:10 +0100
+
+
+Started GET "/assets/eLogo.png" for ::1 at 2015-10-19 15:12:10 +0100
+
+
+Started GET "/assets/solowScripts/canvasControlsDesktop.self-8a2ddb40254cbcc7b868a544cf2a6f0da094bd660ac3e6462d03e25e90d082b9.js?body=1" for ::1 at 2015-10-19 15:12:10 +0100
+
+
+Started GET "/solow-tech-increase" for ::1 at 2015-10-19 15:29:56 +0100
+Processing by SolowController#techincrease as */*
+Completed 200 OK in 15ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow-savings-increase" for ::1 at 2015-10-19 15:29:58 +0100
+Processing by SolowController#savingsincrease as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow-tech-decrease" for ::1 at 2015-10-19 15:30:00 +0100
+Processing by SolowController#techdecrease as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow-alpha-decrease" for ::1 at 2015-10-19 15:30:07 +0100
+Processing by SolowController#alphadecrease as */*
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow-savings" for ::1 at 2015-10-19 15:30:17 +0100
+Processing by SolowController#savings as */*
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow-Y" for ::1 at 2015-10-19 15:30:18 +0100
+Processing by SolowController#Y as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow-i" for ::1 at 2015-10-19 15:30:20 +0100
+Processing by SolowController#i as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow-refresh" for ::1 at 2015-10-19 15:31:07 +0100
+Processing by SolowController#refresh as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow-tech-decrease" for ::1 at 2015-10-19 15:31:13 +0100
+Processing by SolowController#techdecrease as */*
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/solowScripts/SolowLibrary.self-97e105823a79b0b4f9527fa4ae7563ba42a6b595759c7b04bcd71385be729fd7.js?body=1" for ::1 at 2015-10-19 15:31:36 +0100
+
+
+Started GET "/solow-dep-decrease" for ::1 at 2015-10-19 15:31:46 +0100
+Processing by SolowController#depdecrease as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow-tech-decrease" for ::1 at 2015-10-19 15:31:50 +0100
+Processing by SolowController#techdecrease as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow-tech-increase" for ::1 at 2015-10-19 15:31:51 +0100
+Processing by SolowController#techincrease as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow-dep-increase" for ::1 at 2015-10-19 15:31:53 +0100
+Processing by SolowController#depincrease as */*
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/solow-dep" for ::1 at 2015-10-19 15:31:57 +0100
+Processing by SolowController#dep as */*
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-19 09:39:04 +0000
+Processing by GeneralController#home as HTML
+  Rendered general/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 759ms (Views: 745.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/eLogo.png" for ::1 at 2016-02-19 09:39:05 +0000
+
+
+Started GET "/solow" for ::1 at 2016-02-19 09:39:07 +0000
+Processing by SolowController#home as HTML
+  Rendered solow/home.html.erb within layouts/application (84.7ms)
+Completed 200 OK in 375ms (Views: 374.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/solowDesktop.self-86707d5c82bf3939cfd2f07869068e6b4a22011fec61b7764d443f8391eeb527.css?body=1" for ::1 at 2016-02-19 09:39:07 +0000
+
+
+Started GET "/assets/solowScripts/SolowLibrary.self-97e105823a79b0b4f9527fa4ae7563ba42a6b595759c7b04bcd71385be729fd7.js?body=1" for ::1 at 2016-02-19 09:39:07 +0000
+
+
+Started GET "/assets/solowScripts/canvasGraphDesktop.self-e8d4613eec4051bd21105659c7981fa3024b04998dc2bc828f06a24a79555a18.js?body=1" for ::1 at 2016-02-19 09:39:07 +0000
+
+
+Started GET "/assets/solowScripts/canvasControlsDesktop.self-8a2ddb40254cbcc7b868a544cf2a6f0da094bd660ac3e6462d03e25e90d082b9.js?body=1" for ::1 at 2016-02-19 09:39:07 +0000
