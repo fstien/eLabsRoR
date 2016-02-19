@@ -6,5 +6,4 @@ New version of eLabs currently in development.
 
 * Javascript files in app => assets => javascripts
 
-* How to run locally: "rails server"
-
+* To run locally: "rails server" or available on a development server here : http://elabstesting.herokuapp.com/solow .
